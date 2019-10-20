@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_graph"
+    app:startDestination="@id/extraSmallFragment">
+
+    <fragment
+        android:id="@+id/extraSmallFragment"
+        android:name="com.charliechristensen.bottomsheettest.ExtraSmallFragment"
+        android:label="ExtraSmallFragment">
+        <action
+            android:id="@+id/action_extraSmallFragment_to_smallFragment"
+            app:destination="@id/smallFragment" />
+        <action
+            android:id="@+id/action_extraSmallFragment_to_tallFragment"
+            app:destination="@id/tallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mediumFragment"
+        android:name="com.charliechristensen.bottomsheettest.MediumFragment"
+        android:label="MediumFragment">
+        <action
+            android:id="@+id/action_mediumFragment_to_tallFragment"
+            app:destination="@id/tallFragment" />
+        <action
+            android:id="@+id/action_mediumFragment_to_smallFragment"
+            app:destination="@id/smallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/smallFragment"
+        android:name="com.charliechristensen.bottomsheettest.SmallFragment"
+        android:label="SmallFragment">
+        <action
+            android:id="@+id/action_smallFragment_to_mediumFragment"
+            app:destination="@id/mediumFragment" />
+        <action
+            android:id="@+id/action_smallFragment_to_extraSmallFragment"
+            app:destination="@id/extraSmallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tallFragment"
+        android:name="com.charliechristensen.bottomsheettest.TallFragment"
+        android:label="TallFragment">
+        <action
+            android:id="@+id/action_tallFragment_to_smallFragment"
+            app:destination="@id/smallFragment" />
+        <action
+            android:id="@+id/action_tallFragment_to_mediumFragment"
+            app:destination="@id/mediumFragment" />
+        <action
+            android:id="@+id/action_tallFragment_to_extraSmallFragment"
+            app:destination="@id/extraSmallFragment" />
+    </fragment>
+</navigation>

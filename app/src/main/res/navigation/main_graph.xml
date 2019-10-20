@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.charliechristensen.bottomsheettest.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_bottomSheetDialog"
+            app:destination="@id/bottomSheetDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/bottomSheetDialog"
+        android:name="com.charliechristensen.bottomsheettest.BottomFragment"/>
+
+</navigation>

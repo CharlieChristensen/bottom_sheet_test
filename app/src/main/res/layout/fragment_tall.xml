@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonSix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonSeven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tallButtonEight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Click me"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
